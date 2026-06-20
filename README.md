@@ -1,4 +1,4 @@
-# File Renamer Pro
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3d1933e1-79ed-49be-bf56-7359e2e38064" /># File Renamer Pro
 
 Renaming a hundred files by hand is the kind of small misery nobody should have to live through. **File Renamer Pro** does it for you — cleanly, safely, and in seconds.
 
@@ -19,8 +19,9 @@ Point it at a folder, pick a naming style, and watch it convert everything into 
 ## Install
 
 ### Windows — just run it
-1. Grab **`FileRenamerPro_Portable.exe`** from the [Releases](../../releases) page.
-2. Double-click. That's it — no Python, no setup.
+1> Download/clone the repo
+2> Double-click build_portable.bat
+3> Grab the finished app at dist [Folder]/FileRenamerPro_Portable.exe
 
 > If Windows shows *"protected your PC,"* click **More info → Run anyway**. That warning just means the app isn't code-signed, which is normal for free tools.
 
