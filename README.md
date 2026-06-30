@@ -1,4 +1,4 @@
-# File Renamer Pro
+# File Rename Pro
 
 Renaming a hundred files by hand is the kind of small misery nobody should have to live through. **File Renamer Pro** does it for you — cleanly, safely, and in seconds.
 
