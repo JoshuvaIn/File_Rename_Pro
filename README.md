@@ -8,6 +8,52 @@
 
 ---
 
+## 🎨 **Screenshots**
+
+### S1: Main Window — Clean & Intuitive Interface
+Select your folder, pick a case format, and preview all changes before applying.
+
+![File Rename Pro - Main Window](screenshots/s1-main-window.png)
+
+**Features shown:**
+- 📂 Folder selection with Browse button
+- 🔤 Case format options (camelCase, PascalCase, snake_case, kebab-case)
+- ☐ Include subfolders & Rename Folders toggles
+- 📝 Operation log showing ready state
+- 🚀 START button & Undo/Redo controls
+
+---
+
+### S2: Settings - Appearance Tab
+Customize theme, fonts, and appearance — all changes apply instantly.
+
+![File Rename Pro - Settings Appearance](screenshots/s2-settings-appearance.png)
+
+**Customization options:**
+- 🌓 Dark Mode toggle
+- 🔤 Font Style dropdown (Helvetica, Arial, Verdana, etc.)
+- 📏 Font Size selector (Small, Medium, Large, Extra Large)
+- ⚡ Changes apply instantly without restart
+
+---
+
+### S3: Settings - File Formats Tab
+Choose which file types to rename with organized categories.
+
+![File Rename Pro - Settings File Formats](screenshots/s3-settings-file-formats.png)
+
+**Organized by category:**
+- 🎵 Music (.mp3, .flac, .wav, .aac, .ogg, .m4a, .wma)
+- 🎬 Video (.mp4, .mkv, .avi, .mov, .wmv, .flv, .webm)
+- 📄 Documents & Notes (.txt, .md, .pdf, .docx, .doc, .rtf, .odt)
+- 🖼️ Images (.jpg, .jpeg, .png, .gif, .bmp, .svg, .webp)
+- 📊 Spreadsheets & Data (.xlsx, .xls, .csv, .json, .xml)
+- 📦 Archives (.zip, .rar, .7z, .tar, .gz)
+- 🔧 Other (.html, .css, .js, .py, .log, .epub)
+- ✅ Quick Select All / Clear All buttons
+
+---
+
 ## What It Does
 
 Renaming a hundred files by hand is the kind of small misery nobody should have to live through. **File Rename Pro** does it for you — cleanly, safely, and in seconds.
@@ -137,9 +183,11 @@ Access **⚙️ Settings** to:
 
 Found a bug? Have a feature idea? Want to improve the code?
 
-- **Report bugs** via GitHub Issues
-- **Suggest features** in Discussions
+- **Report bugs** via [GitHub Issues](https://github.com/JoshuvaIn/File_Rename_Pro/issues)
+- **Suggest features** in [Discussions](https://github.com/JoshuvaIn/File_Rename_Pro/discussions)
 - **Submit pull requests** for improvements
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
@@ -156,3 +204,5 @@ Found a bug? Have a feature idea? Want to improve the code?
 ---
 
 **Get started:** [Clone the repo](https://github.com/JoshuvaIn/File_Rename_Pro) or [Download the latest release](https://github.com/JoshuvaIn/File_Rename_Pro/releases)
+
+⭐ **If you find this useful, please star the repository!** ⭐
