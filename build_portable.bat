@@ -1,7 +1,8 @@
 @echo off
 REM ===========================================================================
 REM  Build FileRenamerPro_Portable.exe (single-file, no console window).
-REM  Requires: Python + "pip install pyinstaller customtkinter"
+REM  Requirements: Python + pip install pyinstaller customtkinter
+REM  Or use: pip install -r requirements.txt
 REM  Output:   dist\FileRenamerPro_Portable.exe
 REM ===========================================================================
 
