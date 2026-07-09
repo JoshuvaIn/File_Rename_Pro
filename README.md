@@ -1,59 +1,158 @@
-# File Rename Pro
+# File Rename Pro — Batch File Renaming Software for Windows
+
+**File Rename Pro** is a clean, fast batch-renaming tool for files and folders with intelligent case conversion. Rename hundreds of files in seconds with preview-before-apply safety. Perfect for organizing photos, code files, documents, and more.
+
+> 🎯 **Searching for:** file rename, batch file renaming, file renamer tool, folder renaming software, case converter, bulk rename files, Windows file rename tool?
+> 
+> **File Rename Pro** is your answer. No command line. No confusion. Just point, pick a naming style, and go.
+
+---
+
+## What It Does
 
 Renaming a hundred files by hand is the kind of small misery nobody should have to live through. **File Rename Pro** does it for you — cleanly, safely, and in seconds.
 
-Point it at a folder, pick a naming style, and watch it convert everything into tidy `camelCase`, `PascalCase`, `snake_case`, or `kebab-case`. You see every change *before* it happens, and you can [...]
+Point it at a folder, pick a naming style, and watch it convert everything into tidy `camelCase`, `PascalCase`, `snake_case`, or `kebab-case`. You see every change *before* it happens, and you can undo it instantly if needed.
+
+### Key Features
+
+- **📝 Intelligent Case Conversion** — Converts between camelCase, PascalCase, snake_case, and kebab-case. Understands word boundaries and acronyms (`HTMLParser` → `html_parser`, not `h_t_m_l_parser`).
+- **👀 Preview Everything** — See all renames before they happen. Apply or undo with one click.
+- **🛡️ Safety First** — System files (.exe, .dll, .sys) and protected Windows folders are automatically skipped.
+- **📁 Files & Folders** — Rename individual files, entire folder trees, or both. Nested paths stay intact.
+- **⚙️ Full Control** — Choose file types, go recursive or not, switch themes, adjust text size. Settings are remembered.
+- **⏮️ Undo/Redo** — Changed your mind? Undo and redo as many times as you want before closing.
 
 ---
 
-## Why you'll like it
+## Why Choose File Rename Pro?
 
-- **It's smart about names.** It actually understands word boundaries and acronyms — `HTMLParser` becomes `html_parser`, not `h_t_m_l_parser`.
-- **Nothing happens without your say-so.** Every rename is previewed first. Hit Apply when it looks right, undo if it doesn't.
-- **It won't break your system.** System files (`.exe`, `.dll`, `.sys`) and protected folders (Windows, System32, …) are skipped automatically.
-- **Files *and* folders.** Rename whole folder trees if you want — nested paths stay intact.
-- **You're in control.** Choose which file types to include, go recursive or not, switch themes, resize the text. It remembers your settings and forgets your folder path the moment you close it.
+- **🚀 Fast** — Process hundreds of files in seconds
+- **💻 Windows-Optimized** — Built for Windows batch file operations
+- **🎨 Modern UI** — Clean, intuitive interface powered by CustomTkinter
+- **🔒 Safe** — No data loss. Preview before applying. Undo anytime.
+- **📦 Portable** — Single .exe file, no installation needed
+- **🆓 Free & Open Source** — MIT license. Personal and commercial use allowed.
+- **💪 No Dependencies** — Minimal footprint, blazing fast
 
 ---
 
-## Install
+## Installation & Setup
 
-### Windows — just run it
-1> Download/clone the repo
-2> Double-click build_portable.bat
-3> Grab the finished app at dist [Folder]/FileRenamerPro_Portable.exe
+### Windows — Quick Start (Easiest)
 
-> If Windows shows *"protected your PC,"* click **More info → Run anyway**. That warning just means the app isn't code-signed, which is normal for free tools.
+1. **Download** the repository or clone it:
+   ```bash
+   git clone https://github.com/JoshuvaIn/File_Rename_Pro.git
+   cd File_Rename_Pro
+   ```
 
-**Want to build the .exe yourself?** Run `build_portable.bat` and find your file in `dist/`.
+2. **Build the portable .exe:**
+   ```bash
+   build_portable.bat
+   ```
 
-### Linux (or running from source)
+3. **Run the app:**
+   - Find `FileRenamerPro_Portable.exe` in the `dist/` folder
+   - Double-click to launch
+
+> ⚠️ **Windows SmartScreen Warning?** Click **"More info" → "Run anyway."** This warning appears because the app isn't code-signed — it's completely safe and normal for free tools.
+
+### Linux / macOS (From Source)
+
 ```bash
-git clone https://github.com/<your-username>/File_Rename_Pro.git
+git clone https://github.com/JoshuvaIn/File_Rename_Pro.git
 cd File_Rename_Pro
-python -m venv venv && source venv/bin/activate
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
-Needs **Python 3.8+**. The same steps work on macOS too.
+
+**Requires:** Python 3.8 or higher
 
 ---
 
-## Using it
+## How to Use File Rename Pro
 
-1. **Browse** to your folder.
-2. Pick a **case style**.
-3. (Optional) tick **Include subfolders** or **Rename Folders**.
-4. Hit **START** to preview, then **✓** to apply — or **↶ / ↷** to undo and redo.
+1. **📂 Select Folder** — Browse and choose the folder with files you want to rename
+2. **🔤 Choose Case Style** — Pick `camelCase`, `PascalCase`, `snake_case`, or `kebab-case`
+3. **⚙️ Configure Options** — Optionally enable:
+   - Include subfolders (recursive rename)
+   - Rename folders (not just files)
+   - Custom file type filters
+4. **👁️ Preview** — Click **START** to see all proposed changes
+5. **✅ Apply or Undo** — Click **✓** to apply, or **↶ / ↷** to undo and redo
 
-The **⚙️ Settings** panel lets you tweak the theme, choose eligible file types, toggle safety protection, and turn on a plain-text log of every rename.
+### Settings Panel
+
+Access **⚙️ Settings** to:
+- Change theme (light/dark)
+- Filter by file type
+- Toggle safety protection
+- Enable rename logging
 
 ---
 
-## Built with
+## Common Use Cases
 
-Python and [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) — that's the only dependency. The whole app lives in a single, readable `app.py`.
+- **Photo Organization** — Convert `IMG_2025_01_15_123456.jpg` to `photo_01_15_2025.jpg`
+- **Code Files** — Rename variables and files to follow coding standards (snake_case, camelCase)
+- **Document Management** — Bulk rename documents with consistent naming conventions
+- **Folder Structure** — Rename nested folders to follow organizational standards
+- **Download Cleanup** — Organize messy download folders with consistent naming
+
+---
+
+## Technical Details
+
+**Built with:**
+- Python 3.8+
+- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) — Modern GUI framework
+- Single, readable `app.py` file — Easy to modify and understand
+
+**File Size:** ~43 KB
+
+**Operating System:** Windows (Linux/macOS also supported when running from source)
+
+---
+
+## Troubleshooting
+
+**Q: Windows says "protected your PC" when I try to run the .exe**
+- A: Click "More info" → "Run anyway." The app isn't code-signed, which is normal for free community tools.
+
+**Q: How do I build from source?**
+- A: Run `build_portable.bat` in the root directory. The finished .exe appears in `dist/`.
+
+**Q: Can I rename system files?**
+- A: No, by design. System files (.exe, .dll, .sys) and Windows protected folders are skipped automatically for your safety.
+
+**Q: Does it work on Mac/Linux?**
+- A: Yes! Install from source using the Linux/macOS instructions above.
+
+---
+
+## Contributing
+
+Found a bug? Have a feature idea? Want to improve the code?
+
+- **Report bugs** via GitHub Issues
+- **Suggest features** in Discussions
+- **Submit pull requests** for improvements
+
+---
 
 ## License
 
-[MIT](LICENSE) — free for personal and commercial use.
+[MIT License](LICENSE) — Free for personal and commercial use.
+
+---
+
+## Topics & Keywords
+
+`file-rename` `batch-rename` `file-renamer` `folder-renaming` `case-conversion` `Windows-software` `file-management` `bulk-rename` `rename-tool` `file-organization`
+
+---
+
+**Get started:** [Clone the repo](https://github.com/JoshuvaIn/File_Rename_Pro) or [Download the latest release](https://github.com/JoshuvaIn/File_Rename_Pro/releases)
