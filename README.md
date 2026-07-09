@@ -1,8 +1,8 @@
 # File Rename Pro
 
-Renaming a hundred files by hand is the kind of small misery nobody should have to live through. **File Renamer Pro** does it for you — cleanly, safely, and in seconds.
+Renaming a hundred files by hand is the kind of small misery nobody should have to live through. **File Rename Pro** does it for you — cleanly, safely, and in seconds.
 
-Point it at a folder, pick a naming style, and watch it convert everything into tidy `camelCase`, `PascalCase`, `snake_case`, or `kebab-case`. You see every change *before* it happens, and you can undo anything. Your files are never at risk.
+Point it at a folder, pick a naming style, and watch it convert everything into tidy `camelCase`, `PascalCase`, `snake_case`, or `kebab-case`. You see every change *before* it happens, and you can [...]
 
 ---
 
@@ -29,8 +29,8 @@ Point it at a folder, pick a naming style, and watch it convert everything into 
 
 ### Linux (or running from source)
 ```bash
-git clone https://github.com/<your-username>/FileRenamerPro.git
-cd FileRenamerPro
+git clone https://github.com/<your-username>/File_Rename_Pro.git
+cd File_Rename_Pro
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 python app.py
